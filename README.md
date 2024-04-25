@@ -186,11 +186,10 @@ m1.fit(training_a, training_b.values.ravel())
 predicted_values = m1.predict(testing_a)
 print(confusion_matrix(testing_b,predicted_values))
 print(classification_report(testing_b,predicted_values))
-```
+````
 
 ### OUTPUT:
-![nn4 2](https://github.com/J-Nisha/Ex-4-NN/assets/150008724/7ef4b4b0-a6d1-4699-86a3-b3becde3b10a)
-
+![nn4 2](https://github.com/J-Nisha/Ex-4-NN/assets/150008724/e4f146ce-0ef1-4e97-ba1b-59b273c3df00)
 
 
 <H3>Result:</H3>
